@@ -17,6 +17,9 @@ fetch(url)
     carPlates.forEach((car:icar) => {
         var li = document.createElement('li');
         li.textContent = car.plate;
+        li.setAttribute(
+            'class',
+            'p-3 mb-2 list-group-item bg-secondary bg-opacity-50 text-white');
         ul.appendChild(li);
     });
 });
