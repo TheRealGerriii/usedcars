@@ -1,3 +1,12 @@
+/*
+* File: app.ts/js
+* Author: Hermányi Gerely
+* Copyright: 2021, Hermányi Gerely
+* Group: Szoft II N
+* Date: 2021-12-09
+* Github: https://github.com/TheRealGerriii/
+* Licenc: GNU GPL
+*/
 import { icar } from "./car.js";
 
 var url = "http://localhost:3000/cars";
